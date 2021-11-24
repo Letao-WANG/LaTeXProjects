@@ -1,0 +1,139 @@
+\documentclass[10pt]{book}
+\usepackage{epsfig}
+\usepackage{psfrag}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{multirow}
+\usepackage{color}
+\usepackage{Sweave}
+\usepackage{algorithm2e}
+
+
+\title{L3 Informatique  \\ \vspace{2cm}  Algorithmique avancée\\  TD Exercices \\ {\vspace2cm}  }
+\date{automne 2021}
+\author{Etienne Birmel\'e \\ etienne.birmele@parisdescartes.fr
+}
+
+
+
+
+
+
+\theoremstyle{plain}
+\newtheorem{prop}{Propri\'et\'e}[chapter]
+\newtheorem{theoreme}{Th\'eor\`eme}[chapter]
+\newtheorem{thm}{Th\'eor\`eme}[chapter]
+
+\theoremstyle{definition}
+
+\newtheorem{definition}{D\'efinition}[chapter]
+%\newenvironment{definition}{ \begin{minipage}{.9\textwidth} \begin{defi}  }  { \end{defi} \end{minipage} }
+
+
+\newtheorem{exercice}{Exercice}[chapter]
+\newenvironment{exo}{\begin{exercice} \end{exercice}}{\smallskip}
+
+\newtheorem{exemple}{Exemple}[chapter]
+\newtheorem{exemples}{Exemples}[chapter]
+%\newenvironment{exemples}[1]{\begin{exemple}\label{#1}  \begin{enumerate}}{\end{enumerate} \end{exemple} }
+
+
+\newenvironment{rmq}{{\bf Remarque:} \\ }{\smallskip}
+\newenvironment{rmqs}{{\bf Remarques:}   \begin{enumerate}} { \end{enumerate}\smallskip}
+\newcommand{\remq}{\paragraph{Remarque:}}
+
+\newcommand{\dps}{\displaystyle}
+
+\newcommand{\rr}{\mathbb{R}}
+\newcommand{\nn}{\mathbb{N}}
+\newcommand{\zz}{\mathbb{Z}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\fl}{\rightarrow}
+\newcommand{\proba}{\mathbb{P}}
+\newcommand{\pr}{\mathbb{P}}
+\newcommand{\esp}{\mathbb{E}}
+\newcommand{\var}{\mathrm{var}}
+\newcommand\ind{{ {{1}}\hspace{-0,8mm}{\mathrm I}}}
+\renewcommand{\labelitemi}{$\bullet$}
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+\maketitle
+
+
+\chapter{Notion de graphe}
+
+
+\begin{prop}
+Un graphe non orienté vérifie $$ \sum_{v\in V(G)} d(v) = 2m. $$
+
+Un graphe orienté vérifie $$ \sum_{v\in V(G)} d^+(v) = \sum_{v\in V(G)} d^-(v) = m. $$
+\end{prop}
+
+\begin{proof}
+Il suffit pour cela de compter le nombre de couples (noeud,arête) qui sont incidents. Si on compte ces couples en regroupant ceux contenant le même noeud, on obtient que leur nombre est de $ \sum_{v\in V(G)} d(v)$. Si on les compte en les regroupant par arête commune, ils sont au nombre de $2m$.
+
+Le raisonnement est similaire dans le cas orienté.
+\end{proof}
+
+Codage par matrice d'adjacence : 
+\[ P_1 = \begin{pmatrix} \frac{2}{5} & \frac{3}{5} & 0\\
+                         \frac{1}{5} & \frac{1}{2} & \frac{3}{10} \\
+                         0 & \frac{2}{5} & \frac{3}{5}     \end{pmatrix}
+P_2 = \begin{pmatrix} \frac{1}{2} & 0 & \frac{1}{2} & 0\\
+                      0 & 0 & \frac{1}{2} & \frac{1}{2}\\ 
+                      \frac{1}{3} & 0 & \frac{2}{3} & 0 \\
+                      0 & 0 & 0 & 1     \end{pmatrix}
+P_3 = \begin{pmatrix} 0 & 1 & 0\\
+                        0 & 0 & 1 \\
+                        1 & 0 & 0     \end{pmatrix}  \]
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{Parcours de graphe}
+
+
+
+\section{Arbres}
+
+
+\begin{theoreme}
+Tout arbre enraciné est un arbre. De plus, pour tout arbre $T$ et tout sommet de $r\in V(T)$, $T$ peut être construit comme un arbre enraciné de racine $r$.
+\end{theoreme}
+
+\begin{proof}
+\begin{enumerate}
+\item Soit $T$ un arbre enraciné. $T$ est acyclique et connexe par construction. En effet, pour toute paire de sommets $u$ et $v$ a un plus ancêtre commun le plus récent $a$ ($r$ étant un ancêtre commun à tous). En passant par $a$, on peut construire un chemin reliant $u$ et $v$.
+
+
+  Soit $vw$ une arête de $T$, o\`u $v$ est le père de $w$. Alors, de par l'algorithme de construction de $T$, aucune autre arête ne relie l'ensemble formé par $w$ et ses descendants au reste du graphe. La suppression de $vw$ rompt donc l'existence d'un chemin entre $v$ et $w$. Ceci étant vrai pour toute arête de $T$, $T$ est bien un graphe connexe minimal. 
+
+\item  Soit $r$ un sommet de $T$. On lui donne le niveau $0$. On peut alors reproduire l'algorithme de construction d'un arbre enraciné en sélectionnant comme descendant de $v$ tout sommet voisin de $v$ dans $T$ et non encore considéré. On obtient un arbre enraciné $G$.
+
+  $G$ est un sous-graphe de $T$ (puisque toute arête de $G$ est une arête de $T$). Supposons que $V(G)\neq V(T)$. $T$ étant connexe, il existe une arête reliant reliant un sommet $v\in V(G)$ à un sommet $w\in V(T)\setminus V(G)$. Mais alors l'algorithme de construction de $G$ aurait considéré cette arête et inclus $w$ dans $V(G)$. On a donc bien $V(G)=V(T)$.
+  
+  $G$ étant connexe par construction, on a alors $G=T$ par minimalité de $T$.  
+\end{enumerate}
+\end{proof}
+
+
+\end{document}
