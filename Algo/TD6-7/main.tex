@@ -18,6 +18,20 @@
 \usepackage[colorinlistoftodos]{todonotes}
 
 \usepackage{xcolor}
+\usepackage{listings}
+\lstset{
+	columns=fixed,       
+	numbers=left,                                        % 在左侧显示行号
+	numberstyle=\tiny\color{gray},                       % 设定行号格式
+	frame=none,                                          % 不显示背景边框
+	backgroundcolor=\color[RGB]{245,245,244},            % 设定背景颜色
+	keywordstyle=\color[RGB]{40,40,255},                 % 设定关键字颜色
+	numberstyle=\footnotesize\color{darkgray},           
+	commentstyle=\it\color[RGB]{0,96,96},                % 设置代码注释的格式
+	stringstyle=\rmfamily\slshape\color[RGB]{128,0,0},   % 设置字符串格式
+	showstringspaces=false,                              % 不显示字符串中的空格
+	language=SQL,                                        % 设置语言
+}
 
 \setlength{\parindent}{0em}
 
@@ -211,7 +225,48 @@ Neo4j est une base de données non relationnelle, une base de données graphique
 Voici le resultat dans le terminale:\\
 Node1 relation12 Node2
 
+\newpage
+\textbf{Neo4j browser}
+Neo4j browser est un interface graphique pour modifier les datas de database. Il utilise Cypher au lieu de SQL language. \\
+ \\
+Create record:
+\begin{center}
+	CREATE (Letao:Person {name:'Letao WANG', born:1999})
+\end{center}
 
+
+
+
+\begin{lstlisting}
+	CREATE (UniversityOfParis:University 
+	{title:'University of Paris', released:2019, 
+		tagline:'Welcome to the University of Paris'})
+	CREATE (Taole:Person {name:'Taole WANG', born:1999})
+	CREATE (Stan:Person {name:'Stan Ma', born:1999})
+	CREATE (Paul:Person {name:'Paul Hu', born:1999})
+	
+	CREATE (Taole)-[:STUDIED_IN {roles:['Student']}]->
+	(UniversityOfParis)
+\end{lstlisting}
+
+Query:
+\begin{center}
+	MATCH (Letao:Person {name: "Letao WANG"}) RETURN Letao\\ 
+	
+	
+	
+\end{center}
+
+\begin{center}
+	\includegraphics[width=0.5\columnwidth]{NeoWang.png} % Example image
+	\newline\newline
+	Et on peut identifier la relation entre Person et University aussi, par exemple on cherche les personnes qui etudier a Universite de Paris\newline\newline
+	\includegraphics[width=1\columnwidth]{NeoUParis.png} % Example image
+\end{center}
+
+\newpage
+
+\subsubsection*{Autre exemple de Cypher}
 
 
 \end{document}
