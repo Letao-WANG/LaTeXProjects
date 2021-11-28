@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 21:03
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 14:26
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,10 +584,14 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count311
 )
+<<<<<<< Updated upstream
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 38
+=======
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 24
+>>>>>>> Stashed changes
 .
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -594,6 +602,7 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box69
 )
+<<<<<<< Updated upstream
 (./main.aux
 
 LaTeX Warning: Label `lst:luftballons' multiply defined.
@@ -615,6 +624,25 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
+=======
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+>>>>>>> Stashed changes
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -678,38 +706,65 @@ e
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
+<<<<<<< Updated upstream
 loading the todonotes package. on input line 38.
+=======
+loading the todonotes package. on input line 24.
+>>>>>>> Stashed changes
 
 <logo_u-paris_tex_regular.png, id=4, 1867.97874pt x 711.65875pt>
 File: logo_u-paris_tex_regular.png Graphic file (type png)
 <use logo_u-paris_tex_regular.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: logo_u-paris_tex_regular.png  used on input line 52.
 (pdftex.def)             Requested size: 373.58914pt x 142.32922pt.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 7
 4.
+=======
+Package pdftex.def Info: logo_u-paris_tex_regular.png  used on input line 38.
+(pdftex.def)             Requested size: 373.58914pt x 142.32922pt.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 6
+0.
+>>>>>>> Stashed changes
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+<<<<<<< Updated upstream
 74.
+=======
+60.
+>>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+<<<<<<< Updated upstream
 74.
+=======
+60.
+>>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+<<<<<<< Updated upstream
 74.
+=======
+60.
+>>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+<<<<<<< Updated upstream
 74.
+=======
+60.
+>>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -720,55 +775,93 @@ aris_tex_regular.png>]
 <Figure2.4.png, id=15, 1027.84pt x 430.60875pt>
 File: Figure2.4.png Graphic file (type png)
 <use Figure2.4.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: Figure2.4.png  used on input line 117.
 (pdftex.def)             Requested size: 455.24411pt x 190.7234pt.
  [1 <./Figure2.4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
+=======
+Package pdftex.def Info: Figure2.4.png  used on input line 103.
+(pdftex.def)             Requested size: 455.24411pt x 190.7234pt.
+ [1 <./Figure2.4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+>>>>>>> Stashed changes
 
  []
 
 <Figure3.2.png, id=21, 905.3825pt x 656.4525pt>
 File: Figure3.2.png Graphic file (type png)
 <use Figure3.2.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: Figure3.2.png  used on input line 168.
 (pdftex.def)             Requested size: 227.62206pt x 165.03424pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--172
+=======
+Package pdftex.def Info: Figure3.2.png  used on input line 154.
+(pdftex.def)             Requested size: 227.62206pt x 165.03424pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+>>>>>>> Stashed changes
 
  []
 
 <Figure3.2a.png, id=22, 584.1825pt x 562.1pt>
 File: Figure3.2a.png Graphic file (type png)
 <use Figure3.2a.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: Figure3.2a.png  used on input line 174.
 (pdftex.def)             Requested size: 227.62206pt x 219.02084pt.
 [2 <./Figure3.2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 177--178
+=======
+Package pdftex.def Info: Figure3.2a.png  used on input line 160.
+(pdftex.def)             Requested size: 227.62206pt x 219.02084pt.
+[2 <./Figure3.2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (20.07129pt too wide) in paragraph at lines 181--182
+=======
+Overfull \hbox (20.07129pt too wide) in paragraph at lines 167--168
+>>>>>>> Stashed changes
 []\T1/ppl/m/n/12 Le poids min-i-mal to-tal est l'addition de tous les poids de 
 Fig-ure3.2 et Edge(F,G), Edge(B,D). 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 181--182
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+>>>>>>> Stashed changes
 
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 183--185
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+>>>>>>> Stashed changes
 
  []
 
 [3 <./Figure3.2a.png>]
+<<<<<<< Updated upstream
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -840,4 +933,37 @@ PDF statistics:
  46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+<swallow.jpg, id=32, 1606.0pt x 1069.9975pt>
+File: swallow.jpg Graphic file (type jpg)
+<use swallow.jpg>
+Package pdftex.def Info: swallow.jpg  used on input line 182.
+(pdftex.def)             Requested size: 227.62206pt x 151.64355pt.
+ [4 <./swallow.jpg>]
+(d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(./luftballons.pl) [5] [6] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 17259 strings out of 478599
+ 321456 string characters out of 5855596
+ 834234 words of memory out of 5000000
+ 34800 multiletter control sequences out of 15000+600000
+ 438686 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,11n,97p,507b,1667s stack positions out of 5000i,500n,10000p,200000b,80000s
+{d:/Apps/Texlive/2021/texmf-dist/fonts
+/enc/dvips/base/8r.enc}<d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplm
+r.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/
+Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/Apps/Texli
+ve/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (7 pages, 395074 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
