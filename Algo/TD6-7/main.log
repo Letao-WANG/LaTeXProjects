@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 21:03
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.21)  27 NOV 2021 14:26
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.21)  29 NOV 2021 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -584,14 +580,10 @@ LaTeX Info: Redefining \addtolength on input line 81.
 )
 \c@@todonotes@numberoftodonotes=\count311
 )
-<<<<<<< Updated upstream
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 38
-=======
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 24
->>>>>>> Stashed changes
 .
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/t1ppl.fd
@@ -602,7 +594,6 @@ File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box69
 )
-<<<<<<< Updated upstream
 (./main.aux
 
 LaTeX Warning: Label `lst:luftballons' multiply defined.
@@ -624,25 +615,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-=======
-(./main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
->>>>>>> Stashed changes
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -706,65 +678,38 @@ e
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-<<<<<<< Updated upstream
 loading the todonotes package. on input line 38.
-=======
-loading the todonotes package. on input line 24.
->>>>>>> Stashed changes
 
 <logo_u-paris_tex_regular.png, id=4, 1867.97874pt x 711.65875pt>
 File: logo_u-paris_tex_regular.png Graphic file (type png)
 <use logo_u-paris_tex_regular.png>
-<<<<<<< Updated upstream
 Package pdftex.def Info: logo_u-paris_tex_regular.png  used on input line 52.
 (pdftex.def)             Requested size: 373.58914pt x 142.32922pt.
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 7
 4.
-=======
-Package pdftex.def Info: logo_u-paris_tex_regular.png  used on input line 38.
-(pdftex.def)             Requested size: 373.58914pt x 142.32922pt.
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 6
-0.
->>>>>>> Stashed changes
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-<<<<<<< Updated upstream
 74.
-=======
-60.
->>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-<<<<<<< Updated upstream
 74.
-=======
-60.
->>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-<<<<<<< Updated upstream
 74.
-=======
-60.
->>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-<<<<<<< Updated upstream
 74.
-=======
-60.
->>>>>>> Stashed changes
 
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -772,153 +717,168 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 
 {d:/Apps/Texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_u-p
 aris_tex_regular.png>]
-<Figure2.4.png, id=15, 1027.84pt x 430.60875pt>
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
+30.
+(d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+<Figure2.4.png, id=20, 1027.84pt x 430.60875pt>
 File: Figure2.4.png Graphic file (type png)
 <use Figure2.4.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: Figure2.4.png  used on input line 117.
+Package pdftex.def Info: Figure2.4.png  used on input line 162.
 (pdftex.def)             Requested size: 455.24411pt x 190.7234pt.
- [1 <./Figure2.4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-=======
-Package pdftex.def Info: Figure2.4.png  used on input line 103.
-(pdftex.def)             Requested size: 455.24411pt x 190.7234pt.
- [1 <./Figure2.4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
->>>>>>> Stashed changes
+[2 <./Figure2.4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-<Figure3.2.png, id=21, 905.3825pt x 656.4525pt>
+<Figure3.2.png, id=26, 905.3825pt x 656.4525pt>
 File: Figure3.2.png Graphic file (type png)
 <use Figure3.2.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: Figure3.2.png  used on input line 168.
+Package pdftex.def Info: Figure3.2.png  used on input line 220.
 (pdftex.def)             Requested size: 227.62206pt x 165.03424pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-=======
-Package pdftex.def Info: Figure3.2.png  used on input line 154.
-(pdftex.def)             Requested size: 227.62206pt x 165.03424pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-<Figure3.2a.png, id=22, 584.1825pt x 562.1pt>
+<Figure3.2a.png, id=27, 584.1825pt x 562.1pt>
 File: Figure3.2a.png Graphic file (type png)
 <use Figure3.2a.png>
-<<<<<<< Updated upstream
-Package pdftex.def Info: Figure3.2a.png  used on input line 174.
+Package pdftex.def Info: Figure3.2a.png  used on input line 226.
 (pdftex.def)             Requested size: 227.62206pt x 219.02084pt.
-[2 <./Figure3.2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-=======
-Package pdftex.def Info: Figure3.2a.png  used on input line 160.
-(pdftex.def)             Requested size: 227.62206pt x 219.02084pt.
-[2 <./Figure3.2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
->>>>>>> Stashed changes
+[3 <./Figure3.2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
 
-<<<<<<< Updated upstream
-Overfull \hbox (20.07129pt too wide) in paragraph at lines 181--182
-=======
-Overfull \hbox (20.07129pt too wide) in paragraph at lines 167--168
->>>>>>> Stashed changes
+Overfull \hbox (20.07129pt too wide) in paragraph at lines 233--234
 []\T1/ppl/m/n/12 Le poids min-i-mal to-tal est l'addition de tous les poids de 
 Fig-ure3.2 et Edge(F,G), Edge(B,D). 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-<<<<<<< Updated upstream
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
->>>>>>> Stashed changes
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
 
-[3 <./Figure3.2a.png>]
-<<<<<<< Updated upstream
+[4 <./Figure3.2a.png>]
 (d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-(./GraphGenerate.java) [4]
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+(./GraphGenerate.java) [5]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-<graph.png, id=36, 390.45876pt x 344.28625pt>
+<graph.png, id=40, 390.45876pt x 344.28625pt>
 File: graph.png Graphic file (type png)
 <use graph.png>
-Package pdftex.def Info: graph.png  used on input line 209.
+Package pdftex.def Info: graph.png  used on input line 261.
 (pdftex.def)             Requested size: 273.14923pt x 240.85689pt.
 
-Overfull \hbox (7.90154pt too wide) in paragraph at lines 213--214
+Overfull \hbox (7.90154pt too wide) in paragraph at lines 265--266
 [] []\T1/ppl/b/n/12 Neo4j.[] \T1/ppl/m/n/12 Neo4j est une base de don-nées non 
 re-la-tion-nelle, une base de don-nées graphique
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
 
  []
 
-(./NeoJava.java) [5 <./graph.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 229--233
+(./NeoJava.java) [6 <./graph.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 281--285
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 2
-48.
-(d:/Apps/Texlive/2021/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-<NeoWang.png, id=40, 436.63126pt x 255.20343pt>
+<NeoWang.png, id=45, 436.63126pt x 255.20343pt>
 File: NeoWang.png Graphic file (type png)
 <use NeoWang.png>
-Package pdftex.def Info: NeoWang.png  used on input line 261.
+Package pdftex.def Info: NeoWang.png  used on input line 313.
 (pdftex.def)             Requested size: 227.62206pt x 133.04143pt.
-<NeoUParis.png, id=41, 872.50969pt x 193.47281pt>
+<NeoUParis.png, id=46, 872.50969pt x 193.47281pt>
 File: NeoUParis.png Graphic file (type png)
 <use NeoUParis.png>
-Package pdftex.def Info: NeoUParis.png  used on input line 264.
+Package pdftex.def Info: NeoUParis.png  used on input line 316.
 (pdftex.def)             Requested size: 455.24411pt x 100.94594pt.
- [6 <./NeoWang.png> <./NeoUParis.png>] [7] (./main.aux)
+[7 <./NeoWang.png> <./NeoUParis.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+<structure_v1.0.png, id=52, 363.3575pt x 652.4375pt>
+File: structure_v1.0.png Graphic file (type png)
+<use structure_v1.0.png>
+Package pdftex.def Info: structure_v1.0.png  used on input line 324.
+(pdftex.def)             Requested size: 136.57462pt x 245.23091pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--331
+
+ []
+
+[8 <./structure_v1.0.png>] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 377--379
+
+ []
+
+<TP7B_dijkstra.png, id=60, 1001.7425pt x 527.9725pt>
+File: TP7B_dijkstra.png Graphic file (type png)
+<use TP7B_dijkstra.png>
+Package pdftex.def Info: TP7B_dijkstra.png  used on input line 380.
+(pdftex.def)             Requested size: 455.24411pt x 239.93784pt.
+<TD7B_dijkstra_res.png, id=61, 807.015pt x 162.6075pt>
+File: TD7B_dijkstra_res.png Graphic file (type png)
+<use TD7B_dijkstra_res.png>
+Package pdftex.def Info: TD7B_dijkstra_res.png  used on input line 386.
+(pdftex.def)             Requested size: 455.24411pt x 91.72949pt.
+[10 <./TP7B_dijkstra.png> <./TD7B_dijkstra_res.png>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17404 strings out of 478599
- 323601 string characters out of 5855596
- 846922 words of memory out of 5000000
- 34934 multiletter control sequences out of 15000+600000
- 439217 words of font info for 82 fonts, out of 8000000 for 9000
+ 17487 strings out of 478599
+ 324751 string characters out of 5855596
+ 848002 words of memory out of 5000000
+ 35013 multiletter control sequences out of 15000+600000
+ 439540 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,97p,621b,1458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,97p,621b,1460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/Apps/Texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<d:/Apps/Texlive
 /2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Apps/Texlive/2021
 /texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb><d:/Apps/Texlive/2021/texmf-d
@@ -927,43 +887,10 @@ type1/urw/palatino/uplbi8a.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on main.pdf (8 pages, 277577 bytes).
+Output written on main.pdf (11 pages, 356703 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-<swallow.jpg, id=32, 1606.0pt x 1069.9975pt>
-File: swallow.jpg Graphic file (type jpg)
-<use swallow.jpg>
-Package pdftex.def Info: swallow.jpg  used on input line 182.
-(pdftex.def)             Requested size: 227.62206pt x 151.64355pt.
- [4 <./swallow.jpg>]
-(d:/Apps/Texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-(./luftballons.pl) [5] [6] (./main.aux) ) 
-Here is how much of TeX's memory you used:
- 17259 strings out of 478599
- 321456 string characters out of 5855596
- 834234 words of memory out of 5000000
- 34800 multiletter control sequences out of 15000+600000
- 438686 words of font info for 81 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 99i,11n,97p,507b,1667s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/Apps/Texlive/2021/texmf-dist/fonts
-/enc/dvips/base/8r.enc}<d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/public/mathpazo/fplm
-r.pfb><d:/Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><d:/
-Apps/Texlive/2021/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><d:/Apps/Texli
-ve/2021/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (7 pages, 395074 bytes).
-PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Stashed changes
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

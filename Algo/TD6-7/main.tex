@@ -111,6 +111,47 @@ un algorithme qui détermine un arbre couvrant de poids minimal parmi ceux tels 
 Démontrer sa validité et préciser sa complexité.
 \end{problem}
 \subsection*{Réponse}
+Au premier il faut verifier si c'est possible de determine un arbre couvrant de poids minimal avec les sommets de U sont des feuilles. Si graphe G - U est pas connexe, c'est impossible de rendre les sommets de U d'etre feuilles.\\
+On suppose G - U est connexe:\\
+
+\subsubsection*{Methode 1}
+On peut modifier l'algo Kruskal:\\
+\begin{lstlisting}
+G un graphe
+U ensemble de sommets
+F vide
+
+begin while G est pas vide:
+	E = la arete poids minimale de G
+	F = F U E
+	begin if F contient un cycle or 
+		un sommet de U avoir deuxieme arete dans F or
+		les deux sommet de E sont dans U:
+		F = F - E
+	end if
+	G = G - E
+end while
+
+\end{lstlisting}
+
+Validation: on ajoute la situation limite, mais l'algo est juste comme Kruskal.
+
+\begin{center}
+	Complexite: \textbf{$O(m\log{}m)$}
+\end{center}
+
+\subsubsection*{Methode 2}
+On fait T est l'arbre couvrant de poids minimale de G - U.\\
+Ensuite on relie les sommets de U et T avec poids minimale.\\
+
+Validation: parce que les sommets de U sont relie finalement, evidement ce sont tout feuilles.\\
+Et T est arbre couvrant poids minimale, les aretes entre U et T sont poids minimales aussi, le resultat est minimale.
+
+Pour complexite: complexite de algo Kruskal + algo de relie\\
+\begin{center}
+Complexite: \textbf{$O(m\log{}m+m)$}
+\end{center}
+
 
 \section*{Exercice 2.9.}
 \begin{problem}
