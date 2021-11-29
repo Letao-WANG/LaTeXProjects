@@ -113,6 +113,10 @@ Démontrer sa validité et préciser sa complexité.
 \subsection*{Réponse}
 
 \section*{Exercice 2.9.}
+\begin{problem}
+Appliquer l’algorithme de Dijkstra au graphe de la figure 1.2 pour
+déterminer le chemin de poids minimal entre u et v.
+\end{problem}
 \begin{center}
 	\includegraphics[width=1\columnwidth]{Figure2.4.png} % Example image
 \end{center}
@@ -148,6 +152,10 @@ Complexity : n * algo Dijkstra ( on considere c'est $O(m + n log n)$  à l’aid
 Donc c'est $ O(n(m+n log n))$
 
 \section*{Exercice 3.1.}
+\begin{problem}
+Les graphes de la figure 2.4 contiennent-ils un chemin eulérien, un cycle
+eulérien, un chemin hamiltonien, un cycle hamiltonien ?
+\end{problem}
 \subsection*{Réponse}
 \begin{center}
 	\begin{tabular}{l l l l}
@@ -163,6 +171,9 @@ Donc c'est $ O(n(m+n log n))$
 \end{center}
 
 \section*{Exercice 3.2.}
+\begin{problem}
+Résoudre le problème du postier sur le graphe de la figure 3.2
+\end{problem}
 
 \begin{center}
 	\includegraphics[width=0.5\columnwidth]{Figure3.2.png} % Example image
@@ -265,8 +276,74 @@ Query:
 \end{center}
 
 \newpage
+\section*{TP7 PartieB}
+\subsection*{Algo Dijkstra}
+Apres j'ai telecharge les fichiers, j'ai realise que le projet est ecrire par Java, mais le style est tres comme language C. Donc au premier je reformule un peu la structure du projet, un peu plus comme MVC (Bien sur je vais continuer le modifier).\\
+\begin{center}
+	\includegraphics[width=0.3\columnwidth]{structure_v1.0.png}
+\end{center}
+Aussi encapsulation, c'est a dire ajouter "pivate" avant les attributs\\
 
-\subsubsection*{Autre exemple de Cypher}
+\textbf{Certaines methodes importants}\\
+\newline
+Get Neighbors
+\begin{lstlisting}
+     /**
+     * For getting all max to 8 neighbors of this vertex
+     * @param line line of source
+     * @param col col of source
+     * @param nlines number of lines
+     * @param ncols number of cols
+     * @return list of neighbors vertex
+     */
+    public static ArrayList<Integer> getNeighborDest
+	(int line, int col, int nlines, int ncols) 
+\end{lstlisting}
+\newpage
+Set weights of Edges
+\begin{lstlisting}
+	/* direction horizontally or vertically */
+	if (Math.abs(source - dest) == 1 || 
+		Math.abs(source - dest) == ncols) {
+		weight = (timeDest + timeSrc) / 2;
+	}
+	/*  direction  diagonal */
+	double weight12 = Math.sqrt(Math.pow(weight1, 2) 
+	+ Math.pow(weight2, 2));
 
+	double weight34 = Math.sqrt(Math.pow(weight3, 2)
+	 + Math.pow(weight4, 2));
 
+	weight = Math.min(weight12, weight34);
+\end{lstlisting}
+
+Partie de algo Dijkstra
+\begin{lstlisting}
+	/* pour tous ses voisins, on verifie si 
+		on est plus rapide en passant par ce noeud. */
+        for (int i = 0; i < graph.getVertexlist().get(min_v).
+			getAdjacencylist().size(); i++) {
+        		int to_try = 
+		graph.getVertexlist().get(min_v).
+		getAdjacencylist().get(i).getDestination();
+
+                /* to_try node timeFromSource += weight */
+                /* code etc. */
+        }
+\end{lstlisting}
+
+\newpage
+\textbf{Resultat}\\
+Parce que la partie graphe de projet est deja fini, je n'ai pas besoin d'ecrire les interface graphique.\\
+\begin{center}
+	\includegraphics[width=1\columnwidth]{TP7B_dijkstra.png}
+\end{center}
+les lines noir sont des Edges, et le line rouge est le chemin minimal distance entre Vertex start a Vertex end.
+
+\begin{center}
+	Et dans le terminale
+	\includegraphics[width=1\columnwidth]{TD7B_dijkstra_res.png}
+\end{center}
+
+Partie Algo Dijkstra fini.
 \end{document}
